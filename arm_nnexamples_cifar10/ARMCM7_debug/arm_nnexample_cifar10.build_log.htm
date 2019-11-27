@@ -1,0 +1,116 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: fhc Administrator, fhc, LIC=TIVNN-YKC4A-CXUU6-DANFR-6KJD5-VEBTI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  C:\MyPlace\Software\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.0.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+C:\MyPlace\STM32\cifar10_image_classifier_on_stm32\arm_nnexamples_cifar10\arm_nnexamples_cifar10.uvprojx
+Project File Date:  11/27/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\MyPlace\Software\Keil_v5\ARM\ARMCC\Bin'
+Build target 'ARMCM7_SP'
+compiling arm_nnexamples_cifar10.cpp...
+linking...
+Program Size: Code=10864 RO-data=352 RW-data=36344 ZI-data=48616  
+".\ARMCM7_debug\arm_nnexample_cifar10.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+   * Component: DSP Variant: Library Version: 1.7.0
+   * Component: NN Lib Version: 1.2.0
+   * Component: Startup Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.2.pack
+                Keil.ARM_Compiler.1.6.2
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: Event Recorder Variant: DAP Version: 1.4.0
+   * Component: STDOUT Variant: ITM Version: 1.2.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_ARMCM7_SP
+  C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include
+  C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include
+  C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: ARM::CMSIS:DSP:Library:1.7.0
+      Include file:  CMSIS\DSP\Include\arm_math.h
+      Library file:  CMSIS\DSP\Lib\ARM\arm_cortexM7lfsp_math.lib
+
+   * Component: ARM::CMSIS:NN Lib:1.2.0
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15_reordered.c
+      Source file:   CMSIS\NN\Source\ActivationFunctions\arm_relu_q15.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15_opt.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15_opt.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_reordered_no_shift.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_nntables.c
+      Include file:  CMSIS\NN\Include\arm_nnfunctions.h
+      Source file:   CMSIS\NN\Source\ActivationFunctions\arm_relu_q7.c
+      Source file:   CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q15.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7_nonsquare.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast_nonsquare.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_no_shift.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q15.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_RGB.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_fast.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_conv_u8_basic_ver1.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7_opt.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_basic.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_1x1_HWC_q7_fast_nonsquare.c
+      Source file:   CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q7.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic_nonsquare.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15.c
+      Source file:   CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q15.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q7.c
+      Source file:   CMSIS\NN\Source\PoolingFunctions\arm_pool_q7_HWC.c
+      Source file:   CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q7.c
+
+   * Component: ARM::Device:Startup:1.2.0
+      Source file:   Device\ARM\ARMCM7\Source\system_ARMCM7.c
+      Source file:   Device\ARM\ARMCM7\Source\ARM\startup_ARMCM7.s
+
+   * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.4.0
+      Include file:  Include\EventRecorder.h
+      Include file:  Config\EventRecorderConf.h
+      Source file:   Source\EventRecorder.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:ITM:1.2.0
+      Source file:   Source\retarget_io.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

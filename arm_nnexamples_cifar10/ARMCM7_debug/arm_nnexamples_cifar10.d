@@ -1,0 +1,17 @@
+.\armcm7_debug\arm_nnexamples_cifar10.o: src\arm_nnexamples_cifar10.cpp
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\MyPlace\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\MyPlace\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\MyPlace\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\MyPlace\Software\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\MyPlace\Software\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: src\arm_nnexamples_cifar10_parameter.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: src\arm_nnexamples_cifar10_weights.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: src\arm_nnexamples_cifar10_inputs.h
+.\armcm7_debug\arm_nnexamples_cifar10.o: .\RTE\_ARMCM7_SP\RTE_Components.h

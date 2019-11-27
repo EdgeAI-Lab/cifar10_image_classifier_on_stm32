@@ -1,0 +1,9 @@
+.\armcm7_debug\system_armcm7.o: RTE\Device\ARMCM7_SP\system_ARMCM7.c
+.\armcm7_debug\system_armcm7.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include\ARMCM7_SP.h
+.\armcm7_debug\system_armcm7.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm7.h
+.\armcm7_debug\system_armcm7.o: C:\MyPlace\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\armcm7_debug\system_armcm7.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\armcm7_debug\system_armcm7.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\armcm7_debug\system_armcm7.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\armcm7_debug\system_armcm7.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h
+.\armcm7_debug\system_armcm7.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include\system_ARMCM7.h
