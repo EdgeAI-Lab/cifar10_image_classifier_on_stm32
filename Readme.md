@@ -1,5 +1,13 @@
 # STM32图像分类
 
+![](https://github.com/edgeML/cifar10_image_classifier_on_stm32/blob/master/assets/img/stm32_image_classifier.png)
+
+|目录|描述|
+|----|----|
+|arm_nnexamples_cifar10|STM32图像分类MDK项目源码|
+|script|图片预处理脚本|
+|test_images_from_cifar10|来自CIFAR-10数据集的测试图片|
+|test_images_from_internet|来自互联网的测试图片|
 
 ## 项目简介
 本项目实现了在STM32上进行图像分类的任务。使用CIFAR-10数据集，通过Caffe机器学习框架搭建和训练

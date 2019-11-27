@@ -1,6 +1,6 @@
 # Usage
 
-![](..\assets\img\image_convert_array.png)
+![](https://github.com/edgeML/cifar10_image_classifier_on_stm32/blob/master/assets/img/image_convert_array.png)
 
 注意：脚本image_convert_to_array.py仅支持32*32的彩色图像
 
