@@ -1,417 +1,0 @@
-Dependencies for Project 'arm_nnexamples_cifar10', Target 'ARMCM7_SP': (DO NOT MODIFY !)
-CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
-F (.\src\arm_nnexamples_cifar10.cpp)(0x5DDDE7BA)(--cpp -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_nnexamples_cifar10.o --omf_browse .\armcm7_debug\arm_nnexamples_cifar10.crf --depend .\armcm7_debug\arm_nnexamples_cifar10.d)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (src\arm_nnexamples_cifar10_parameter.h)(0x5DD3AD65)
-I (src\arm_nnexamples_cifar10_weights.h)(0x5DD3AD65)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-I (src\arm_nnexamples_cifar10_inputs.h)(0x5DDDE81D)
-I (.\RTE\_ARMCM7_SP\RTE_Components.h)(0x5DDCF954)
-F (.\readme.txt)(0x5DD3AD65)()
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Lib\ARM\arm_cortexM0l_math.lib)(0x5D2590B6)()
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q15.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_nn_activations_q15.o --omf_browse .\armcm7_debug\arm_nn_activations_q15.crf --depend .\armcm7_debug\arm_nn_activations_q15.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q7.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_nn_activations_q7.o --omf_browse .\armcm7_debug\arm_nn_activations_q7.crf --depend .\armcm7_debug\arm_nn_activations_q7.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_relu_q15.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_relu_q15.o --omf_browse .\armcm7_debug\arm_relu_q15.crf --depend .\armcm7_debug\arm_relu_q15.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_relu_q7.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_relu_q7.o --omf_browse .\armcm7_debug\arm_relu_q7.crf --depend .\armcm7_debug\arm_relu_q7.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_1x1_HWC_q7_fast_nonsquare.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_convolve_1x1_hwc_q7_fast_nonsquare.o --omf_browse .\armcm7_debug\arm_convolve_1x1_hwc_q7_fast_nonsquare.crf --depend .\armcm7_debug\arm_convolve_1x1_hwc_q7_fast_nonsquare.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_basic.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_convolve_hwc_q15_basic.o --omf_browse .\armcm7_debug\arm_convolve_hwc_q15_basic.crf --depend .\armcm7_debug\arm_convolve_hwc_q15_basic.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_fast.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_convolve_hwc_q15_fast.o --omf_browse .\armcm7_debug\arm_convolve_hwc_q15_fast.crf --depend .\armcm7_debug\arm_convolve_hwc_q15_fast.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_RGB.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_convolve_hwc_q7_rgb.o --omf_browse .\armcm7_debug\arm_convolve_hwc_q7_rgb.crf --depend .\armcm7_debug\arm_convolve_hwc_q7_rgb.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_convolve_hwc_q7_basic.o --omf_browse .\armcm7_debug\arm_convolve_hwc_q7_basic.crf --depend .\armcm7_debug\arm_convolve_hwc_q7_basic.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic_nonsquare.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_convolve_hwc_q7_basic_nonsquare.o --omf_browse .\armcm7_debug\arm_convolve_hwc_q7_basic_nonsquare.crf --depend .\armcm7_debug\arm_convolve_hwc_q7_basic_nonsquare.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_convolve_hwc_q7_fast.o --omf_browse .\armcm7_debug\arm_convolve_hwc_q7_fast.crf --depend .\armcm7_debug\arm_convolve_hwc_q7_fast.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast_nonsquare.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_convolve_hwc_q7_fast_nonsquare.o --omf_browse .\armcm7_debug\arm_convolve_hwc_q7_fast_nonsquare.crf --depend .\armcm7_debug\arm_convolve_hwc_q7_fast_nonsquare.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_conv_u8_basic_ver1.c)(0x5D2590B8)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_depthwise_conv_u8_basic_ver1.o --omf_browse .\armcm7_debug\arm_depthwise_conv_u8_basic_ver1.crf --depend .\armcm7_debug\arm_depthwise_conv_u8_basic_ver1.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_depthwise_separable_conv_hwc_q7.o --omf_browse .\armcm7_debug\arm_depthwise_separable_conv_hwc_q7.crf --depend .\armcm7_debug\arm_depthwise_separable_conv_hwc_q7.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7_nonsquare.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_depthwise_separable_conv_hwc_q7_nonsquare.o --omf_browse .\armcm7_debug\arm_depthwise_separable_conv_hwc_q7_nonsquare.crf --depend .\armcm7_debug\arm_depthwise_separable_conv_hwc_q7_nonsquare.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_nn_mat_mult_kernel_q7_q15.o --omf_browse .\armcm7_debug\arm_nn_mat_mult_kernel_q7_q15.crf --depend .\armcm7_debug\arm_nn_mat_mult_kernel_q7_q15.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15_reordered.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_nn_mat_mult_kernel_q7_q15_reordered.o --omf_browse .\armcm7_debug\arm_nn_mat_mult_kernel_q7_q15_reordered.crf --depend .\armcm7_debug\arm_nn_mat_mult_kernel_q7_q15_reordered.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_fully_connected_mat_q7_vec_q15.o --omf_browse .\armcm7_debug\arm_fully_connected_mat_q7_vec_q15.crf --depend .\armcm7_debug\arm_fully_connected_mat_q7_vec_q15.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15_opt.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_fully_connected_mat_q7_vec_q15_opt.o --omf_browse .\armcm7_debug\arm_fully_connected_mat_q7_vec_q15_opt.crf --depend .\armcm7_debug\arm_fully_connected_mat_q7_vec_q15_opt.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_fully_connected_q15.o --omf_browse .\armcm7_debug\arm_fully_connected_q15.crf --depend .\armcm7_debug\arm_fully_connected_q15.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15_opt.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_fully_connected_q15_opt.o --omf_browse .\armcm7_debug\arm_fully_connected_q15_opt.crf --depend .\armcm7_debug\arm_fully_connected_q15_opt.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_fully_connected_q7.o --omf_browse .\armcm7_debug\arm_fully_connected_q7.crf --depend .\armcm7_debug\arm_fully_connected_q7.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7_opt.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_fully_connected_q7_opt.o --omf_browse .\armcm7_debug\arm_fully_connected_q7_opt.crf --depend .\armcm7_debug\arm_fully_connected_q7_opt.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q15.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_nn_mult_q15.o --omf_browse .\armcm7_debug\arm_nn_mult_q15.crf --depend .\armcm7_debug\arm_nn_mult_q15.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q7.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_nn_mult_q7.o --omf_browse .\armcm7_debug\arm_nn_mult_q7.crf --depend .\armcm7_debug\arm_nn_mult_q7.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nntables.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_nntables.o --omf_browse .\armcm7_debug\arm_nntables.crf --depend .\armcm7_debug\arm_nntables.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_no_shift.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_q7_to_q15_no_shift.o --omf_browse .\armcm7_debug\arm_q7_to_q15_no_shift.crf --depend .\armcm7_debug\arm_q7_to_q15_no_shift.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_reordered_no_shift.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_q7_to_q15_reordered_no_shift.o --omf_browse .\armcm7_debug\arm_q7_to_q15_reordered_no_shift.crf --depend .\armcm7_debug\arm_q7_to_q15_reordered_no_shift.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\PoolingFunctions\arm_pool_q7_HWC.c)(0x5D2590B8)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_pool_q7_hwc.o --omf_browse .\armcm7_debug\arm_pool_q7_hwc.crf --depend .\armcm7_debug\arm_pool_q7_hwc.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q15.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_softmax_q15.o --omf_browse .\armcm7_debug\arm_softmax_q15.crf --depend .\armcm7_debug\arm_softmax_q15.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q7.c)(0x5C8A247C)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\arm_softmax_q7.o --omf_browse .\armcm7_debug\arm_softmax_q7.crf --depend .\armcm7_debug\arm_softmax_q7.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\float.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D2590B8)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D2590B8)
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Lib\ARM\arm_cortexM3l_math.lib)(0x5D2590B6)()
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Lib\ARM\arm_cortexM4lf_math.lib)(0x5D2590B6)()
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Lib\ARM\arm_cortexM7lfsp_math.lib)(0x5D2590B6)()
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.2\Source\EventRecorder.c)(0x5B8F507E)()
-F (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.2\Source\retarget_io.c)(0x584E29BE)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\retarget_io.o --omf_browse .\armcm7_debug\retarget_io.crf --depend .\armcm7_debug\retarget_io.d)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x5D9AD218)
-I (.\RTE\_ARMCM7_SP\RTE_Components.h)(0x5DDCF954)
-F (RTE\Compiler\EventRecorderConf.h)(0x5DD3AD65)()
-F (RTE\Device\ARMCM0\startup_ARMCM0.s)(0x5DD3AD65)()
-F (RTE\Device\ARMCM0\system_ARMCM0.c)(0x5DD3AD65)()
-F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x5DD3AD65)()
-F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x5DD3AD65)()
-F (RTE\Device\ARMCM4_FP\startup_ARMCM4.s)(0x5DD3AD65)()
-F (RTE\Device\ARMCM4_FP\system_ARMCM4.c)(0x5DD3AD65)()
-F (RTE\Device\ARMCM7_SP\startup_ARMCM7.s)(0x5DD3AD65)(--cpu Cortex-M7.fp.sp --li -g --apcs=interwork -I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "ARMCM7_SP SETA 1"--list .\armcm7_debug\startup_armcm7.lst --xref -o .\armcm7_debug\startup_armcm7.o --depend .\armcm7_debug\startup_armcm7.d)
-F (RTE\Device\ARMCM7_SP\system_ARMCM7.c)(0x5DD3AD65)(--c99 -c --cpu Cortex-M7.fp.sp --li -g -O0 --apcs=interwork -I ..\..\..\..\Include -I ..\..\..\..\..\Core\Include -I ..\..\..\..\..\DSP\Include -I .\src-I.\RTE\_ARMCM7_SP-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include-D__UVISION_VERSION="529" -D_RTE_ -DARMCM7_SP -DARM_MATH_CM7 -D__FPU_PRESENT="1U"-o .\armcm7_debug\system_armcm7.o --omf_browse .\armcm7_debug\system_armcm7.crf --depend .\armcm7_debug\system_armcm7.d)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include\ARMCM7_SP.h)(0x5BBD6B7A)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm7.h)(0x5D2590B6)
-I (C:\MyPlace\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM7\Include\system_ARMCM7.h)(0x5BBD6B7A)
