@@ -25,7 +25,7 @@
 
 ## 项目的输出
 
-输出是测试图像所属的类别的概率，概率值最大的就是目标图像的所属类，输出结果如下图所示：
+输出是测试图像所属的类别的概率，概率值最大的就是目标图像的所属类别，输出结果如下图所示：
 
 ![](https://github.com/edgeML/cifar10_image_classifier_on_stm32/blob/master/assets/img/stm32_image_classifier_output_result.png)
 
